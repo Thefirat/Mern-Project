@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <div className="header-menu">
             <div className="header-logo">
-                <Link to="/"><h2 className="header-logo-title">MernTecnology</h2> </Link>
+                <Link to="/"><h2 className="header-logo-title">Firat Akkoyun</h2> </Link>
             </div>
 
             <div className="header-nav">

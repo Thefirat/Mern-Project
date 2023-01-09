@@ -1,0 +1,100 @@
+.header-container
+{
+    min-height: 120px;
+    box-shadow: 0 15px 10px -15px #485b63;
+    z-index: 1 ;
+};
+
+
+.header-row
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 5px; 
+}
+
+
+.header-top
+{
+    display: flex;
+    justify-content: center;
+}
+
+.header-top span
+{
+    font-size: 12px;
+    margin: 0 15px;
+}
+
+
+.header-menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header-logo-title
+{
+    text-transform: uppercase;
+    text-shadow: 0 0 2px #485b63;
+}
+
+.header-nav a{
+    margin: 0 25px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px #485b63;
+ }
+
+.header-action a
+{
+    position: relative;
+    margin: 0 20px;
+    text-shadow: 0 0 1px #485b63;
+    font-size: 18px;
+}
+
+.header-action a .header-cart-badge
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px;
+    padding: 2px;
+    min-height: 20px;
+    border-radius: 50%;
+    background-color: #ca2734;
+    font-size: 18px;
+    color: #ffffff;
+    top: -15px;
+    right: -15px;
+}
+
+.active 
+{
+    border-bottom: 3px solid #ca2734;
+}
+
+.footer-container
+{
+    min-height: 40px;
+    box-shadow: 0 -15px 10px -15px #485b63;
+}
+
+.footer-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-row span 
+{
+    font-size: 12px;
+    color: #2f5f74;
+}
