@@ -107,3 +107,35 @@
 
  
 }
+
+.slider-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.slider-col h2
+{
+    width: 450px;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.slider-col a
+{
+    float: right;
+    background-color: darkcyan;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #2f5f74;
+    transition: all 0.5s;
+}
+
+.slider-col a:hover
+{
+    color: #ca2734;
+    background-color: #ffffff;
+}

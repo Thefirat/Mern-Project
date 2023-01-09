@@ -1,3 +1,5 @@
+import { faEye } from '@fortawesome/free-regular-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import { Link } from 'react-router-dom';
 
@@ -8,7 +10,8 @@ const Slider = () => {
             <img src='./assets/images/others/bild1.jpg' alt='' />
         </div>
         <div className="slider-col">
-            <Link to="/shop">Go to Shop</Link>
+          <h2>Online Market with the largest number of products and sellers.</h2>
+            <Link to="/shop"><FontAwesomeIcon icon={faEye} /> Shop</Link>
         </div>
 
     </div>
