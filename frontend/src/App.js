@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< Updated upstream
 
 function App() {
   return (
@@ -19,6 +20,24 @@ function App() {
         </a>
       </header>
     </div>
+=======
+import Home from './pages/home/Home';
+import Sellers from './pages/sellers/Sellers';
+import Shop from './pages/shop/Shop';
+
+function App() {
+  return (
+   <>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/shop' element={<Shop />} />
+        <Route path='/sellers' element={<Sellers />} />
+      </Routes>
+    </Router>
+   
+   </>
+>>>>>>> Stashed changes
   );
 }
 
